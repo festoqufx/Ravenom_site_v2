@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
+import { AiOutlinePhone } from 'react-icons/ai';
+import { IoLogoSkype } from 'react-icons/io';
 import './contact.css';
 
 const Contact = () => {
@@ -38,9 +40,9 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>rasiftagizade11@gmail.com</h5>
+            <h5><MdOutlineEmail className="contact__option-icon" />ferdinand.estoque@yahoo.com</h5>
+            <h5><AiOutlinePhone className="contact__option-icon" /> +639958143127</h5>
+            <h5><IoLogoSkype className="contact__option-icon" />ferdinand.estoque</h5>
             <a href="mailto:mekomerikomg@gmail.com">Send a message</a>
           </article>
         </div>

@@ -9,7 +9,9 @@ header {
   height: 100%;
   position: relative;
 }
-
+h1.big-text {
+  font-size: 4.5rem;
+}
 .cta {
   display: flex;
   justify-content: center;
@@ -61,5 +63,22 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+}
+
+
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+}
+ 
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 2;
   }
 }

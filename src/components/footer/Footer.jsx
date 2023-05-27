@@ -21,14 +21,11 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      
-      <a href="#" target="_blank" rel="noreferrer" ><FaFacebookSquare /></a>
-      <a href="#" target="_blank" rel="noreferrer" ><FaLinkedin /></a>
-      <a href="#" target="_blank" rel="noreferrer" ><FaInstagramSquare /></a>
-      <a href="#" target="_blank" rel="noreferrer" ><FaTwitterSquare /></a>
-      <a href="#" target="_blank" rel="noreferrer" ><FaGithubSquare /></a>
-      
-      
+        <a href="#home" target="_blank" rel="noreferrer" ><FaFacebookSquare /></a>
+        <a href="#home" target="_blank" rel="noreferrer" ><FaLinkedin /></a>
+        <a href="#home" target="_blank" rel="noreferrer" ><FaInstagramSquare /></a>
+        <a href="#home" target="_blank" rel="noreferrer" ><FaTwitterSquare /></a>
+        <a href="#home" target="_blank" rel="noreferrer" ><FaGithubSquare /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; ET {year}. All rights reserved.</small>
@@ -36,5 +33,4 @@ const Footer = () => {
     </footer>
   )
 }
-
 export default Footer
