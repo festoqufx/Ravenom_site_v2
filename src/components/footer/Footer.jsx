@@ -1,6 +1,9 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {
@@ -18,8 +21,14 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-      <a href="https://www.linkedin.com/in/rasif-tagizada/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
-      <a href="https://github.com/Rasif-Taghizada" target="_blank" rel="noreferrer" ><FaGithub /></a>
+      
+      <a href="#" target="_blank" rel="noreferrer" ><FaFacebookSquare /></a>
+      <a href="#" target="_blank" rel="noreferrer" ><FaLinkedin /></a>
+      <a href="#" target="_blank" rel="noreferrer" ><FaInstagramSquare /></a>
+      <a href="#" target="_blank" rel="noreferrer" ><FaTwitterSquare /></a>
+      <a href="#" target="_blank" rel="noreferrer" ><FaGithubSquare /></a>
+      
+      
       </div>
       <div className="footer__copyright">
         <small>&copy; ET {year}. All rights reserved.</small>
