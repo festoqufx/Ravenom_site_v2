@@ -4,9 +4,11 @@ import { FaGithub } from 'react-icons/fa';
 import './footer.css';
 
 const Footer = () => {
+  const today = new Date();
+  const year = today.getFullYear();
   return (
     <footer>
-      <a href="#home" className="footer__logo">Rasif Tagizade</a>
+      <a href="#home" className="footer__logo">Ferdinand Estoque</a>
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -20,7 +22,7 @@ const Footer = () => {
       <a href="https://github.com/Rasif-Taghizada" target="_blank" rel="noreferrer" ><FaGithub /></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; ET 2022. All rights reserved.</small>
+        <small>&copy; ET {year}. All rights reserved.</small>
       </div>
     </footer>
   )
