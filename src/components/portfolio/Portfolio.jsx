@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import IMG1 from "../../assets/Educational Website.jpg";
 import IMG2 from "../../assets/RubyCode Blog Project.jpg";
 import IMG3 from "../../assets/Startup Agency Project.jpg";
 import IMG4 from "../../assets/Covid-19 Project.jpg";
 import IMG5 from "../../assets/Jokes Project.jpg";
 import IMG6 from "../../assets/Project4.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import "./portfolio.css";
 //Portfolio function
 const Portfolio = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+     });
+  }, []);
   const soloProjects = [
     {
       id: 1,
@@ -72,7 +82,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio">
+    <section data-aos="flip-left" id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

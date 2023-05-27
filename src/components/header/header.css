@@ -19,6 +19,16 @@ h1.big-text {
   margin-top: 2.5rem;
 }
 
+img.icon-banner {
+  width: 50%;
+  margin: 0 auto;
+}
+
+img.main-logo {
+  width: 8rem;
+  margin: 0 auto;
+}
+
 .header__socials {
   display: flex;
   flex-direction: column;

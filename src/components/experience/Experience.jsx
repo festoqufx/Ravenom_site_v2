@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import './experience.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Experience = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+     });
+  }, []);
   return (
-    <section id="experience">
+    <section data-aos="fade-down-right" id="experience">
       <h5>The Skills I Have</h5>
       <h2>Skills</h2>
       <div className="container experience__container">

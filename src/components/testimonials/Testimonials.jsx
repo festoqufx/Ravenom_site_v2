@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { BsLinkedin } from 'react-icons/bs';
 import { Pagination } from 'swiper';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -12,6 +13,14 @@ import 'swiper/css/scrollbar';
 import './testimonials.css';
 
 const Testimonials = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+     });
+  }, []);
   const testimonials = [
     {
       id: 1,
@@ -50,7 +59,7 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section id="testmonials">
+    <section data-aos="flip-up" id="testmonials">
       <h5>Feedback from my peers</h5>
       <h2>Testimonials</h2>
       <Swiper 

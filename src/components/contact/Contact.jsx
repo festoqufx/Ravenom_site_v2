@@ -1,11 +1,21 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { MdOutlineEmail } from 'react-icons/md';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { IoLogoSkype } from 'react-icons/io';
 import './contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+     });
+  }, []);
   const [message, setMessage] = useState(false);
   const formRef = useRef();
   const handleSubmit = (e) => {
@@ -30,7 +40,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section id="contact">
+    <section data-aos="flip-down" id="contact">
       <h5>Get In Touch</h5>
       <h5>
         I do receive your messages and will respond asap if the valid email is

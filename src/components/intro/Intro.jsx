@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import ME from '../../assets/Raven.png';
 import "./intro.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Intro = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,});
+  }, []);
   return (
-    <section id="about">
+    <section data-aos="zoom-in-up" id="about">
       <h5>Get to know</h5>
       <h2>About Me</h2>
       <div className="container about__container">

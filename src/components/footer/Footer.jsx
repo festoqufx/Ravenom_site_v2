@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useEffect } from "react";
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import './footer.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 600,
+      easing: 'ease-in-sine',
+      delay: 100,
+     });
+  }, []);
   const today = new Date();
   const year = today.getFullYear();
   return (
-    <footer>
+    <footer data-aos="zoom-out">
       <a href="#home" className="footer__logo">Ferdinand Estoque</a>
       <ul className="permalinks">
         <li><a href="#home">Home</a></li>
