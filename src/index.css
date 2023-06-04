@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900');
 
 * {
   margin: 0;
@@ -133,4 +133,19 @@ img {
   section > h2 {
     margin-bottom: 2rem;
   }
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('./assets/BG1.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

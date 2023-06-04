@@ -1,0 +1,51 @@
+.progressVisualFull {
+    display: flex;
+    /* change the value if you want different thickness */
+    height: 6px;
+    margin: 20px 0;
+  }
+  
+  .progressVisualPart {
+    /* Number of the seconds for complete animation */
+    transition: width 2s;
+  }
+  
+  .progressLabel {
+    /* Nothing here, move along */
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #030303;
+    border-radius: 6px;
+  }
+  
+  svg {
+    margin: 0 0 0 3px;
+}
+
+  .css-1633um2-MuiPaper-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    background-color: #fff;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    padding: 5px 5px 0 5px !important;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.css-ict9cr-MuiGrid-root>.MuiGrid-item {
+  padding: 0 0 2px 0;
+  width: 100% !important;
+}

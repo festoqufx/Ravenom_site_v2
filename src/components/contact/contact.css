@@ -1,5 +1,4 @@
 .container.contact__container {
-    width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
@@ -76,4 +75,15 @@ textarea {
     .container.contact__container {
         width: var(--container-width-sm);
     }
+}
+
+.css-di4d8m-MuiPaper-root-MuiCard-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    overflow: hidden;
+    max-width: 100% !important;
 }

@@ -82,7 +82,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <section data-aos="flip-left" id="portfolio">
+    <section data-aos="flip-left" id="Portfolio" className="parallax">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

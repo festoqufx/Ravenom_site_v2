@@ -6,6 +6,7 @@ import "./intro.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const Intro = () => {
   useEffect(() => {
     AOS.init({
