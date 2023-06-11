@@ -15,7 +15,7 @@ const Experience = () => {
   }, []);
   return (
     <section data-aos="zoom-out-up" id="experience">
-      <h2>Skills</h2>
+      <h2>Hobbies & Interest</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
           <h3>Front-end Development</h3>
@@ -52,6 +52,9 @@ const Experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Typescript</h4>
             </article>
+
+
+
           </div>
         </div>
       </div>

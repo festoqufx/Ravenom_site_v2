@@ -34,7 +34,7 @@ const Gallery = () => {
   }, []);
   return (
     <section data-aos="fade-down-right" id="experience">
-    <h2>Gallery</h2>
+    <h2>Gallery2</h2>
     <div className="container">
     <>
       <Swiper

@@ -15,7 +15,7 @@ const Map = () => {
   return (
     <section data-aos="zoom-out">
 
-      <h1 style={{textAlign: "center"}}>Map</h1>
+      <h2 style={{textAlign: "center"}}>Map</h2>
 
     
       <div className="mapouter">

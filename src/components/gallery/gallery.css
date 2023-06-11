@@ -42,3 +42,9 @@
   z-index: 1;
   height: 281px !important;
 }
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}

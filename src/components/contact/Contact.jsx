@@ -5,16 +5,16 @@ import CardMedia from '@mui/material/CardMedia';
 import './contact.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Avatar from '@mui/material/Avatar';
-import ImageIcon from '@mui/icons-material/Image';
-import WorkIcon from '@mui/icons-material/Work';
-import BeachAccessIcon from '@mui/icons-material/BeachAccess';
+import CallIcon from '@mui/icons-material/Call';
+import MailIcon from '@mui/icons-material/Mail';
 import Divider from '@mui/material/Divider';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 const Contact = () => {
   useEffect(() => {
@@ -50,7 +50,7 @@ const Contact = () => {
   };
   return (
     <section data-aos="flip-down" id="contact">
-      <h1 style={{textAlign: "center"}}>Contact Me</h1>
+      <h2 style={{textAlign: "center"}}>Contact Me</h2>
       <h5>Let's start something great together</h5>
       <p>&nbsp;</p>
       <p>&nbsp;</p>
@@ -73,10 +73,10 @@ const Contact = () => {
         bgcolor: 'background.paper',
       }}
     >
-      <ListItem>
+      <ListItem wrap="nowrap">
         <ListItemAvatar>
           <Avatar>
-            <ImageIcon />
+            <LocationOnIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="Cavite Philippines" secondary="Address" />
@@ -85,7 +85,7 @@ const Contact = () => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <WorkIcon />
+            <CallIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="+639958143127" secondary="Cellphone Number" />
@@ -94,15 +94,16 @@ const Contact = () => {
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <MailIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="ferdinand.estoque@yahoo.com" secondary="Email address" />
       </ListItem>
+      <Divider variant="inset" component="li" />
       <ListItem>
         <ListItemAvatar>
           <Avatar>
-            <BeachAccessIcon />
+            <WhatsAppIcon />
           </Avatar>
         </ListItemAvatar>
         <ListItemText primary="ferdinand.estoque" secondary="Skype" />

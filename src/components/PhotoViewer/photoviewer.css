@@ -1,0 +1,54 @@
+
+.react-photo-gallery--gallery div img {
+    width: 16% !important;
+    height: 150px;
+}
+
+.react-photo-gallery--gallery div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+.css-zjq1i3 {
+    height: auto;
+    /* max-height: 100vh; */
+    max-width: 33% !important;
+    margin: 0 auto !important;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.css-8wgz7g {
+    display: inline-block;
+    fill: currentColor;
+    height: 48px;
+    stroke: currentColor;
+    stroke-width: 0;
+    width: 48px;
+}
+
+
+
+.css-8wgz7g {
+    display: inline-block;
+    fill: currentColor;
+    height: 48px;
+    stroke: currentColor;
+    stroke-width: 0;
+    width: 48px;
+}
+
+
+
+.css-1h82jk3 {
+    margin-left: -100px;
+}
+
+.css-xfk84m {
+    margin-right: -100px;
+}

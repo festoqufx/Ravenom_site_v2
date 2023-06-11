@@ -4,9 +4,10 @@ import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
 import Skills from './components/skills/Skills';
-import Gallery from './components/gallery/Gallery';
+import Gallery from './components/gallery/Gallery'
 import Resume from './components/resume/Resume';
 import Intro from './components/intro/Intro';
+import PhotoViewer from './components/PhotoViewer/PhotoViewer';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Map from './components/map/Map';
@@ -22,6 +23,7 @@ const App = () => {
       <Resume />
       <Skills />
       <Gallery />
+      <PhotoViewer/>
       <Experience />
       <Portfolio />
       <Testimonials />
