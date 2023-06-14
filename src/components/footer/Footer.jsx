@@ -24,7 +24,6 @@ const Footer = () => {
     <footer data-aos="zoom-out">
       <h1 style={{color: "black"}}>FOLLOW ME AROUND THE WEB</h1>
       <p>&nbsp;</p>
-      
       <div className="footer__socials">
         <a href="#home" target="_blank" rel="noreferrer" ><FaFacebookSquare /></a>
         <a href="#home" target="_blank" rel="noreferrer" ><FaLinkedin /></a>
@@ -42,10 +41,13 @@ const Footer = () => {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__copyright">
-        <small>&copy; ET {year}. |  FERDINAND BELLEZA ESTOQUE   |   All Rights Reserved.</small>
+        <small>&copy; ET {year}. |  FERDINAND&nbsp;ESTOQUE   |   All&nbsp;Rights&nbsp;Reserved.</small>
       </div>
       <p>&nbsp;</p>
+     
       <p>Made with <AiOutlineHeart/> by me.</p>
+      <p>&nbsp;</p>
+
     </footer>
   )
 }

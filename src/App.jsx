@@ -1,17 +1,20 @@
 import React from 'react';
 import Contact from './components/contact/Contact';
-import Experience from './components/experience/Experience';
+// import Experience from './components/experience/Experience';
 import Footer from './components/footer/Footer';
+import Svg from './components/svg/Svg';
 import Header from './components/header/Header';
 import Skills from './components/skills/Skills';
 import Gallery from './components/gallery/Gallery'
-import Resume from './components/resume/Resume';
+import Timeline1 from './components/timeline1/Timeline1';
+import Interest from './components/interest/Interest';
 import Intro from './components/intro/Intro';
-import PhotoViewer from './components/PhotoViewer/PhotoViewer';
+import PhotoViewer from './components/photoViewer/PhotoViewer';
 import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Map from './components/map/Map';
 import Topbar from './components/topbar/Topbar';
+
 
 
 const App = () => {
@@ -20,11 +23,13 @@ const App = () => {
       <Header />
       <Topbar />
       <Intro />
-      <Resume />
+      <Timeline1 />
       <Skills />
       <Gallery />
       <PhotoViewer/>
-      <Experience />
+      <Svg/>
+      {/* <Experience /> */}
+      <Interest />
       <Portfolio />
       <Testimonials />
       <Contact />

@@ -29,8 +29,9 @@ const Skills = () => {
     color: theme.palette.text.secondary,
   }));
   return (
-    <section data-aos="zoom-out" id="experience">
+    <section data-aos="zoom-out" id="Skills">
 <h2>Professional Skillset</h2>
+<p>&nbsp;</p>
     <Container maxWidth="xl">
 
     <Box sx={{ width: '100%', margin: '0 auto'}}>

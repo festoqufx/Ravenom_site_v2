@@ -12,7 +12,7 @@
 
 :root {
   --color-bg: #000000;
-  --color-bg-variant: #808080;
+  --color-bg-variant: #dcdcdc;
   --color-primary: #BEBEBE;
   --color-primary-variant: #F0F0F0;
   --color-white: #fff;
@@ -71,7 +71,6 @@ section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
 }
 
 .text-light {

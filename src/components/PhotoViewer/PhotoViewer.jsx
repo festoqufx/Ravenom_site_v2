@@ -32,8 +32,9 @@ function PhotoViewer() {
     setViewerIsOpen(false);
   };
   return (
-    <section data-aos="fade-down-right" id="experience">
+    <section data-aos="fade-down-right" id="Gallery">
     <h2 style={{ textAlign: 'center'}}>Gallery</h2>
+    <p>&nbsp;</p>
 
     <div className="container">
       <Gallery photos={photos} onClick={openLightbox} />

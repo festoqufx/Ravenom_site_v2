@@ -7,20 +7,20 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
-import image1 from '../../assets/1.jpg';
-import image2 from '../../assets/2.jpg';
-import image3 from '../../assets/3.jpg';
-import image4 from '../../assets/4.jpg';
-import image5 from '../../assets/5.jpg';
-import image6 from '../../assets/6.jpg';
-import image7 from '../../assets/7.jpg';
-import image8 from '../../assets/8.jpg';
-import image9 from '../../assets/9.jpg';
-import image10 from '../../assets/10.jpg';
-import image11 from '../../assets/11.jpg';
-import image12 from '../../assets/12.jpg';
-import image13 from '../../assets/13.jpg';
-import image14 from '../../assets/14.jpg';
+import image1 from '../../assets/1.png';
+import image2 from '../../assets/2.png';
+import image3 from '../../assets/3.png';
+import image4 from '../../assets/4.png';
+import image5 from '../../assets/5.png';
+import image6 from '../../assets/6.png';
+import image7 from '../../assets/7.png';
+import image8 from '../../assets/8.png';
+import image9 from '../../assets/9.png';
+import image10 from '../../assets/10.png';
+import image11 from '../../assets/11.png';
+import image12 from '../../assets/12.png';
+import image13 from '../../assets/13.png';
+import image14 from '../../assets/14.png';
 
 
 const Gallery = () => {
@@ -33,9 +33,11 @@ const Gallery = () => {
      });
   }, []);
   return (
-    <section data-aos="fade-down-right" id="experience">
-    <h2>Gallery2</h2>
-    <div className="container">
+    <section data-aos="fade-down-right" id="Web Portfolio">
+    <h2>Portfolio</h2>
+    <h5>Scroll the images to the left</h5>
+    <p>&nbsp;</p>
+    <div className="container_box">
     <>
       <Swiper
         effect={"coverflow"}

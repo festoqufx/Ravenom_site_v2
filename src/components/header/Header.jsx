@@ -4,7 +4,7 @@ import HeaderSocials from './HeaderSocials';
 import ReactRotatingText from 'react-rotating-text'; // eslint-disabled-next-line
 import './header.css';
 import logo from '../../assets/logo.png';
-import iconbanner from '../../assets/icon-banner1.png';
+import iconbanner from '../../assets/wing.png';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import AOS from 'aos';
@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header id="home" >
 
-<div style={{ width: "100%", height: "674px", position: "absolute", top: "0", left: "0", zIndex: "5"}}>
+<div style={{ width: "100%", height: "749px", position: "absolute", top: "0", left: "0", zIndex: "5"}}>
 <Particles
         style={{ width: "100%", height: "1000px"}}
         id="tsparticles"
@@ -123,8 +123,15 @@ const Header = () => {
 
         <img className="main-logo" src={logo} alt=""/>
         <h1 className='big-text'>FERDINAND ESTOQUE</h1>
+        <p>&nbsp;</p>
+
         <h5 >a.k.a.</h5>
-        <h3 className="text-light">Black Raven</h3>
+        <h2 className="text-light">Black Raven</h2>
+
+        <p>&nbsp;</p>
+                <img className="icon-banner" src={iconbanner} alt=""/>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <h1> <ReactRotatingText items={[
                         "Web Design",
                         "Web Maintenance",
@@ -139,18 +146,32 @@ const Header = () => {
                     pause={800}
                 />
                 </h1>
+                <p>&nbsp;</p><p>&nbsp;</p>
+
+
+
+
+               
 
 
 
 
 
-                <p>&nbsp;</p>
-                <img className="icon-banner" src={iconbanner} alt=""/>
-                <p>&nbsp;</p>
 
+<div class="scroll-downs">
+  <div class="mousey">
+    <div class="scroller">
+        <a href="#contact" className="scroll__down1">
+      
+         &nbsp;
+        </a>
+    </div>
+  </div>
+</div>
 
         <CTA />
-        <a href="#contact" className="scroll__down">
+
+       <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
         <HeaderSocials />

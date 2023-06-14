@@ -17,8 +17,12 @@ const Intro = () => {
   }, []);
   return (
     <section data-aos="zoom-in-up" id="about">
-      <h5>Get to know</h5>
+      <p>&nbsp;</p>
       <h2>About Me</h2>
+     
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">

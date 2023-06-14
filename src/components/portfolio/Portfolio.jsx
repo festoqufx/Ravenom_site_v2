@@ -83,8 +83,11 @@ const Portfolio = () => {
 
   return (
     <section  id="Portfolio" className="parallax">
-      <h5>My Recent Work</h5>
+       <p>&nbsp;</p>
       <h2>Portfolio</h2>
+      <h5>My Recent Work</h5>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
 
       <div data-aos="flip-left" className="container portfolio__container">
         {soloProjects.map((pro) => (

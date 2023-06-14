@@ -13,16 +13,17 @@ header {
 h1.big-text {
   font-size: 4.5rem;
 }
-.cta {
+/* .cta {
   display: flex;
   justify-content: center;
   gap: 1.2rem;
   margin-top: 2.5rem;
-}
+} */
 
 img.icon-banner {
-  width: 50%;
-  margin: 0 auto;
+  width: 70%;
+  margin: -128px auto 0 auto;
+  position: relative;
 }
 
 img.main-logo {
@@ -46,6 +47,16 @@ img.main-logo {
   height: 2rem;
   background: var(--color-primary);
 }
+
+.scroll__down1 {
+  /* position: absolute; */
+  /* right: 5rem; */
+  /* bottom: 5rem; */
+  /* transform: rotate(90deg); */
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
 
 .scroll__down {
   position: absolute;
@@ -72,7 +83,7 @@ img.main-logo {
   }
 
   .header__socials,
-  .scroll__down {
+  .scroll__down1 {
     display: none;
   }
 }
@@ -99,3 +110,62 @@ div#tsparticles {
   height: 100%;
 }
 
+body,html  {
+  background-color: #000;
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.scroll-downs {
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 34px;
+  height: 55px;
+  z-index: 30;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+
+
+svg {
+  margin: 0 0 0 -10px;
+}
+
+
+.cta {
+  /* display: flex; */
+  justify-content: center;
+  gap: 1.2rem;
+  /* margin-top: 2.5rem; */
+  margin: 20px auto 0 auto;
+  position: relative;
+  z-index: 30;
+}
