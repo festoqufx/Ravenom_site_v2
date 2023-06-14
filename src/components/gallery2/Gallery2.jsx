@@ -25,7 +25,7 @@ const Gallery2 = () => {
     <section data-aos="fade-down-right" id="experience">
     <h2 style={{ textAlign: 'center'}}>Gallery</h2>
     <p>&nbsp;</p>
-  <div className="range" style={"--p:60"}>
+  <div className="range">
   <div className="range__label">Progress</div>
 </div>
 
