@@ -1,7 +1,6 @@
 import React, { useEffect, useCallback } from 'react';
 import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
-import ReactRotatingText from 'react-rotating-text'; // eslint-disabled-next-line
 import './header.css';
 import logo from '../../assets/logo.png';
 import iconbanner from '../../assets/wing.png';
