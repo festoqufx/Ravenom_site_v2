@@ -148,3 +148,11 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-daej4n {
+  max-width: 100% !important;
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-yb0lig {
+  color: black !important;
+}
